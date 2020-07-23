@@ -1,0 +1,78 @@
+Script started on 2020-06-22 14:22:01-04:00 [TERM="xterm" TTY="/dev/pty0" COLUMNS="84" LINES="24"]
+]0;/cygdrive/c/Users/katie/CST8234-Workspace/Assignment1/Debug
+[32mkatie@DESKTOP-KBLPTP2 [33m/cygdrive/c/Users/katie/CST8234-Workspace/Assignment1/Debug[0m
+$ ls -la
+total 266
+drwx------+ 1 katie katie      0 Jun 22 14:22 .
+drwx------+ 1 katie katie      0 Jun 22 14:20 ..
+-rwxr-xr-x+ 1 katie katie 253408 Jun 22 14:20 Assignment1.exe
+-rwx------+ 1 katie katie   1047 Jun 22 14:20 makefile
+-rwx------+ 1 katie katie    239 Jun 22 14:20 objects.mk
+-rwx------+ 1 katie katie    407 Jun 22 14:20 sources.mk
+drwx------+ 1 katie katie      0 Jun 22 14:20 src
+-rw-r--r--+ 1 katie katie      0 Jun 22 14:22 typescript
+]0;/cygdrive/c/Users/katie/CST8234-Workspace/Assignment1/Debug
+[32mkatie@DESKTOP-KBLPTP2 [33m/cygdrive/c/Users/katie/CST8234-Workspace/Assignment1/Debug[0m
+$ make
+make: 'src/Assignment1.o' is up to date.
+]0;/cygdrive/c/Users/katie/CST8234-Workspace/Assignment1/Debug
+[32mkatie@DESKTOP-KBLPTP2 [33m/cygdrive/c/Users/katie/CST8234-Workspace/Assignment1/Debug[0m
+$ ./Assignment1.exe
+Welcome to the Student Register System (SRS)
+
+How many students would you like to register: 2
+Please enter the student ID for student 1: 123456
+Invalid student id. Please enter a 5 digit integer
+Please enter the student ID for student 1: 12345
+Please enter the student ID for student 2: 23456
+[12345, 23456]
+How many courses are you offering: 2
+Please enter the course code for course 1: CST82 130
+Please enter the course code for course 2: 	cst8234        CST8234
+[CST8130, CST8234]
+Please choose one of the following actions: 
+1- Register a student in a course
+2- Drop a student's course
+3- Print registration table
+4- Quit
+Please enter action number: 1
+Please enter the student id: 12345
+Please enter the course id: c CST8234
+[ [ -1, 1 ], [ -1, -1 ] ]
+Please choose one of the following actions: 
+1- Register a student in a course
+2- Drop a student's course
+3- Print registration table
+4- Quit
+Please enter action number: 3
+[ [ -1, 1 ], [ -1, -1 ] ]
+Please choose one of the following actions: 
+1- Register a student in a course
+2- Drop a student's course
+3- Print registration table
+4- Quit
+Please enter action number: 2
+Please enter the student id: 12345
+Please enter the course id: CST8234
+[ [ -1, 0 ], [ -1, -1 ] ]
+Please choose one of the following actions: 
+1- Register a student in a course
+2- Drop a student's course
+3- Print registration table
+4- Quit
+Please enter action number: 1
+Please enter the student id: 234568 
+Please enter the course id: CST8130
+[ [ -1, 0 ], [ 1, -1 ] ]
+Please choose one of the following actions: 
+1- Register a student in a course
+2- Drop a student's course
+3- Print registration table
+4- Quit
+Please enter action number: 4
+]0;/cygdrive/c/Users/katie/CST8234-Workspace/Assignment1/Debug
+[32mkatie@DESKTOP-KBLPTP2 [33m/cygdrive/c/Users/katie/CST8234-Workspace/Assignment1/Debug[0m
+$ exit
+exit
+
+Script done on 2020-06-22 14:24:56-04:00 [COMMAND_EXIT_CODE="0"]
