@@ -5,14 +5,17 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../src/Assignment1.c \
+../src/Main.c \
 ../src/helper.c 
 
 OBJS += \
 ./src/Assignment1.o \
+./src/Main.o \
 ./src/helper.o 
 
 C_DEPS += \
 ./src/Assignment1.d \
+./src/Main.d \
 ./src/helper.d 
 
 
